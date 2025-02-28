@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background: white;
   width: 100%;
   height: 100vh;
