@@ -1,8 +1,3 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -34,10 +29,10 @@ li {
 
   color: #4d5ae5;
 }
-nav ul li a {
+.nav-list-item {
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1, 5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -45,7 +40,7 @@ nav ul li a {
   color: #2e2f42;
 }
 .nav-list-item:hover,
-.nav-list-item :focus {
+.nav-list-item:focus {
   color: #404bbf;
 }
 
@@ -78,14 +73,7 @@ nav ul li a {
 /* section1 */
 
 .section-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 600px;
   background-color: #2e2f42;
-  text-align: center;
 }
 
 .title {
@@ -95,10 +83,6 @@ nav ul li a {
   line-height: 107%;
   letter-spacing: 0.02em;
   color: white;
-  margin-top: 188px;
-  padding-left: 472px;
-  padding-right: 472px;
-  margin-bottom: 48px;
 }
 
 .button {
@@ -110,14 +94,9 @@ nav ul li a {
   letter-spacing: 0.04em;
   color: #fff;
   border: none;
-  padding: 16 32 16 32;
-  width: 169px;
-  height: 56px;
-  border-radius: 4px;
+
   cursor: pointer;
   transition: background-color 0.3s ease;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  margin-bottom: 188px;
 }
 .button:hover,
 .button:focus {
@@ -193,9 +172,6 @@ nav ul li a {
 .footer {
   background-color: #2e2f42;
   color: white;
-  display: flex;
-  justify-content: space-between;
-  padding: 32px 156px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
