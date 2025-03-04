@@ -98,7 +98,11 @@ li {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-.button:hover,
+.button:hover {
+  background-color: #404bbf;
+  color: #f0f0f0;
+}
+
 .button:focus {
   background-color: #404bbf;
   color: #f0f0f0;
